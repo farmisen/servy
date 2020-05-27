@@ -1,0 +1,7 @@
+<h1>All The Bears!</h1>
+
+<ul>
+  <%= for %{name: name, type: type} <- bears do %>
+    <li><%= name %> - <%= type %></li>
+  <% end %>
+</ul>
